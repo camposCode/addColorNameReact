@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 3.6rem;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.square{
+  width: 40rem;
+  height: 40rem;
+  border: 2px solid #3333;
+  box-shadow: 2px 2px 5px #3333;
+  border-radius: .5rem;
+  display: grid;
+  place-content: center;
+}
+
+.square p{
+  text-align: center;
+}
+
+form{
+  width: 40rem;
+}
+
+label{
+  position: absolute;
+  right: 25rem;
+  top: 65rem;
+}
+
+input[type="text"]{
+  margin-top: 11rem;
+  padding: .5rem;
+  width: 100%;
+  font-size: 3rem;
+  box-shadow: 2px 2px 5px #3333;
+  border-radius: .5rem;
+  outline: none;
+}
