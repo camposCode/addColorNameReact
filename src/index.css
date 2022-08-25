@@ -43,7 +43,7 @@ form{
 label{
   position: absolute;
   right: 25rem;
-  top: 65rem;
+  top: 61rem;
 }
 
 input[type="text"]{
@@ -54,4 +54,15 @@ input[type="text"]{
   box-shadow: 2px 2px 5px #3333;
   border-radius: .5rem;
   outline: none;
+}
+
+button{
+  max-height: 7rem;
+  width: 100%;
+  padding: .5rem;
+  font-size: 1.5rem;
+  background-color: papayawhip;
+  border-radius: 3rem;
+  outline: none;
+  box-shadow: 2px 2px 5px #3333;
 }
